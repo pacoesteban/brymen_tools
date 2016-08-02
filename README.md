@@ -2,6 +2,7 @@
 
 This is a collection of scripts to read data from Brymen multimeters (currently just the BM257s, but all can be adapted).
 
+Sigrok-cli offers csv output, but I've found this output really limited for this kind of multimeters (it just outputs the value). The script adds a timestamp to every reading, and preserves all the info that goes to stdout.
 
 ## `sigrok_parser.pl`
 This script will read the given input file(s) (or STDIN) of sigrok output format 
